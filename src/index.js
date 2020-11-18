@@ -2,10 +2,13 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
+import PostProvider from './PostContext'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <PostProvider>
+      <App />
+    </PostProvider>
   </React.StrictMode>,
   document.getElementById('root')
 )

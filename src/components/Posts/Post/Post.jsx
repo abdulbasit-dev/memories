@@ -1,9 +1,9 @@
 import React from 'react'
 
-import useStyles from './styles'
-
+// import useStyles from './styles'
+//
 function Post() {
-  const classes = useStyles()
+  // const classes = useStyles()
   return (
     <div>
       <h2>Post</h2>
